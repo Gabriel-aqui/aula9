@@ -9,6 +9,9 @@ function setup() {
 function draw() {
   background(30);
   drawSprites()
+  if(keyDown ("left")) {
+    kadrado.x -= 2
+  }
 }
 
 
